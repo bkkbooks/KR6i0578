@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0578/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 外道問聖大乘法無我義經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0846.xml
+    old_id: T17n0846
+hash: sha256:3492fd64a0f15b1aedffdf4499b2fb9ae1e83484c3c006737ab99b7a306a5ffa

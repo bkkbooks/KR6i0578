@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0578/v1
+canonical_location: https://kanripo.org/bkk/KR6i0578/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 外道問聖大乘法無我義經
+  identifiers:
+    alt_id:
+    - T17n0846
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0846.xml
+    old_id: T17n0846
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宮
+  label: 宮
+  source_xml_id: wit2
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0578_000.yaml, hash: 'sha256:3492fd64a0f15b1aedffdf4499b2fb9ae1e83484c3c006737ab99b7a306a5ffa'}
+  - {seq: 1, filename: KR6i0578_001.yaml, hash: 'sha256:d1218766e14cb24de9d5781f09ace525d948a418e85f57eb3e097c892a8bda27'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0578_001.markers.yaml, hash: 'sha256:8a4705ebdc3fcafa4dd162717c4f8d3a53918e29479d639a2d172c4a68928a3b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0578_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1262
+  label: 外道問聖大乘法無我義經
+  type: juan
+  level: 1
+hash: sha256:15182986461ad09aee015c3a988d5fc89b5015b451ed6967cef48ba0c147b9b1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
