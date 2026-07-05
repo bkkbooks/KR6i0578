@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0578_000.yaml, hash: 'sha256:3492fd64a0f15b1aedffdf4499b2fb9ae1e83484c3c006737ab99b7a306a5ffa'}
-  - {seq: 1, filename: KR6i0578_001.yaml, hash: 'sha256:d1218766e14cb24de9d5781f09ace525d948a418e85f57eb3e097c892a8bda27'}
+  - {seq: 1, filename: KR6i0578_001.yaml, hash: 'sha256:6bb80ee007827415d4f8f7ef552dc7db9b945e1a59198dd7f690aa34b8ec59a5'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0578_001.markers.yaml, hash: 'sha256:8a4705ebdc3fcafa4dd162717c4f8d3a53918e29479d639a2d172c4a68928a3b'}
+  - {seq: 0, role: markers, filename: assets/KR6i0578_000.markers.yaml, hash: 'sha256:b564d11f4a47c4e551b2ab9926d75704f04d93e4ed2b2adcac058e2ad8dbfb8a'}
+  - {seq: 1, role: markers, filename: assets/KR6i0578_001.markers.yaml, hash: 'sha256:2273878df059a8273eda146fc641c1424cf406ed60335343c9c5e9b62e8b2b33'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 外道問聖大乘法無我義經
   type: juan
   level: 1
-hash: sha256:15182986461ad09aee015c3a988d5fc89b5015b451ed6967cef48ba0c147b9b1
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1ee5cc279e831c111a73a23d81a58b01c7af5a988905b08d801886855bd0cc7b
