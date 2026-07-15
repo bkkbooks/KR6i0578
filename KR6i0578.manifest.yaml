@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0578/v1
 canonical_location: https://kanripo.org/bkk/KR6i0578/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 外道問聖大乘法無我義經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0578_000.yaml, hash: 'sha256:3492fd64a0f15b1aedffdf4499b2fb9ae1e83484c3c006737ab99b7a306a5ffa'}
-  - {seq: 1, filename: KR6i0578_001.yaml, hash: 'sha256:6bb80ee007827415d4f8f7ef552dc7db9b945e1a59198dd7f690aa34b8ec59a5'}
+  - {seq: 1, filename: KR6i0578_001.yaml, hash: 'sha256:22c1e4d6d218f8c1f0db0e97cad13661fa25073f718d94643bbeee16f8f53d54'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0578_000.markers.yaml, hash: 'sha256:b564d11f4a47c4e551b2ab9926d75704f04d93e4ed2b2adcac058e2ad8dbfb8a'}
-  - {seq: 1, role: markers, filename: assets/KR6i0578_001.markers.yaml, hash: 'sha256:2273878df059a8273eda146fc641c1424cf406ed60335343c9c5e9b62e8b2b33'}
+  - {seq: 1, role: markers, filename: assets/KR6i0578_001.markers.yaml, hash: 'sha256:aceb278ef337a4e5515e62431e1a1847171fef85fb01e66934aaa34cc1601349'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 外道問聖大乘法無我義經
   type: juan
   level: 1
-hash: sha256:1ee5cc279e831c111a73a23d81a58b01c7af5a988905b08d801886855bd0cc7b
+hash: sha256:dc4108ffc587fa3bebece6f60c071c164abfd7df8aed914ee5cb535cf62d9ddb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
